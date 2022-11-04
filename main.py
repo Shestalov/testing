@@ -12,4 +12,4 @@ class Coordinates:
 
 
 def line_length(point_1, point_2):
-    return ((point_1.x - point_2.x)**2 + (point_2.y - point_1.y)**2) ** 0.5
+    return ((point_1.x - point_2.x) ** 2 + (point_2.y - point_1.y) ** 2) ** 0.5
