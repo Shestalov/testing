@@ -5,8 +5,6 @@ from main import Coordinates, line_length
 
 
 class TestLineLength(unittest.TestCase):
-    # a1 = Coordinates(1, 2)
-    # a2 = Coordinates(2, 2)
 
     def test_point1(self):
         point_1 = Coordinates(3, 3)
@@ -67,8 +65,3 @@ class TestLineLength(unittest.TestCase):
         point_1 = Coordinates(-3, 3)
         point_2 = Coordinates(0, 0)
         self.assertEqual(4.242640687119285, line_length(point_1, point_2))
-
-    # def test3(self):
-    #     point_1 = Coordinates(1, 2)
-    #     point_2 = Coordinates(2, 2)
-    #     self.assertEqual(line_length(self.point_1, self.point_2), 5)
