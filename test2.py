@@ -68,7 +68,7 @@ class TestLineLength(unittest.TestCase):
         point_2 = Coordinates(0, 0)
         self.assertEqual(4.242640687119285, line_length(point_1, point_2))
 
-    # def test3(self):
+    # def test0(self):
     #     point_1 = Coordinates(1, 2)
     #     point_2 = Coordinates(2, 2)
     #     self.assertEqual(line_length(self.point_1, self.point_2), 5)
